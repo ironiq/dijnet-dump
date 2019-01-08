@@ -48,7 +48,7 @@ fi
 
 SCRIPT=$(basename $0)
 DIJNET_BASE_URL="https://www.dijnet.hu/ekonto"
-BASEDIR=${base:-.}
+BASEDIR=${base:-$(pwd)}
 
 USER="$1"; PASS="$2"
 
